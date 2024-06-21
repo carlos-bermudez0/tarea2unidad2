@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 2 Unidad II</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="menu">
+        <button id="toggleMenu"> Menú</button>
+        <div id="menuContent" class="hidden">
+            <button id="inicioBtn">Inicio</button>
+            <button id="formatoBtn">Formulario</button>
+        </div>
+    </div>
+    <div id="mainContent">
+        <div id="inicioContent" class="hidden">
+            <button id="showMessageBtn">Mostrar Mensaje de Bienvenida</button>
+            <div id="messageContainer"></div>
+        </div>
+        <div id="formContent" class="hidden">
+            <form id="dataForm">
+                <label for="nameInput">Nombre:</label>
+                <input type="text" id="nameInput" required>
+                <label for="emailInput">Correo:</label>
+                <input type="email" id="emailInput" required>
+                <label for="messageInput">Mensaje:</label>
+                <textarea id="messageInput" required></textarea>
+                <button type="submit">Guardar</button>
+            </form>
+            <div id="dataGrid"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

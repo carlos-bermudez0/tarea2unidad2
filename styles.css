@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#menu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 200px;
+    background-color: #f4f4f4;
+    border-right: 1px solid #ddd;
+    height: 100%;
+    padding: 10px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#menuContent.hidden {
+    display: none;
+}
+
+#mainContent {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+#messageContainer {
+    margin: 20px 0;
+}
+
+.message {
+    background-color: #e7f3fe;
+    border: 1px solid #b3d7ff;
+    padding: 10px;
+    margin: 5px 0;
+    position: relative;
+}
+
+.message button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: none;
+    border: none;
+    color: #888;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.grid-item {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+}
